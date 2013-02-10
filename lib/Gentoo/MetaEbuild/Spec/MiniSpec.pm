@@ -3,7 +3,10 @@ use warnings;
 
 package Gentoo::MetaEbuild::Spec::MiniSpec;
 BEGIN {
-  $Gentoo::MetaEbuild::Spec::MiniSpec::VERSION = '0.1.0';
+  $Gentoo::MetaEbuild::Spec::MiniSpec::AUTHORITY = 'cpan:KENTNL';
+}
+{
+  $Gentoo::MetaEbuild::Spec::MiniSpec::VERSION = '0.1.1';
 }
 
 # ABSTRACT: Minimal Conforming spec for MetaEbuilds.
@@ -19,6 +22,7 @@ no Moose;
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -27,7 +31,7 @@ Gentoo::MetaEbuild::Spec::MiniSpec - Minimal Conforming spec for MetaEbuilds.
 
 =head1 VERSION
 
-version 0.1.0
+version 0.1.1
 
 =head1 SYNOPSIS
 
@@ -77,10 +81,9 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Kent Fredric <kentnl@cpan.org>.
+This software is copyright (c) 2013 by Kent Fredric <kentnl@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
